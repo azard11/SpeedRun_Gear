@@ -1,0 +1,30 @@
+* {
+    border-radius: 30px;
+    padding: 2px;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: #0f0f0f;
+}
+body {
+    min-height: 100vh;
+    transition: .5s;
+}
+img {
+    margin: 0 auto;
+    height: 100px;
+    visibility: visible;
+}
+table {
+    border: 3px solid rgb(138, 138, 138);
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+}
