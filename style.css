@@ -1,19 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
 body{
-    display: flex;
-    flex-wrap: wrap;
-}
+    margin: 0;
+    background-image: url(bg.jpg);
+    background-size: 1900px 1080px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ }
+ 
+ .sidebar{
+    position: fixed;
+    width: 250px;
+    top:0;
+    left: 0;
+    bottom: 0;
+    background: rgba(17, 17, 17, 0.733);
+    padding-top: 50px;
+ }
+ 
+ .sidebar h1{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+ 
+ .sidebar a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+    font-weight: bold;
+ }
+ 
+ .sidebar a:hover{
+    color: purple;
+    margin-left: 20px;
+    transition: 0.4s;
+ }
+ 
+ .container{
+   display: block;
+   margin: 107px 250px;
+   background-color: rgba(17, 17, 17, 0.733);
+   padding: 5px;
+   border-radius: 3px;
 
-.header{
-    flex-basis: 70%;
-}
+ }
 
-.sidebar{
-    flex-basis: 15%;
-}
+ .itemhome{
+   display: block;
+   opacity: 1;
+   background-color: #f1f1f1;
+   border-radius: 3px;
+   margin: 10px;
+   padding: 5px;
+   text-align: left;
+   font-size: large;
+   font-family: "Rubik";
+ }
 
-.container{
-    flex-basis: 70%;
-}
-.footer{
-    flex-basis: 100%;
-}
+ .itemgear{
+   display: block;
+   opacity: 1;
+   background-color: rgb(24, 24, 24);
+   border-radius: 3px;
+   margin: 10px;
+   padding: 5px;
+   text-align: left;
+   font-size: large;
+   font-family: "Rubik";
+   color: white;
+ }
